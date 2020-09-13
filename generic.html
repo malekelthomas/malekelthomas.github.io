@@ -25,7 +25,7 @@
 					  		$("#main").append(content+`<img width=50% height=auto src='${data["data"][i]["media_url"]}'></a><p>${data["data"][i]["caption"]}</p>`)
 							}
 						else{
-					  		$("#main").append(`<video width='480' height='480' controls><source src='${data["data"][i]["media_url"]}'></video></a><p>${data["data"][i]["caption"]}</p>`)
+					  		$("#main").append(content+`<video class='center' width='480' height='480' controls><source src='${data["data"][i]["media_url"]}'></video></a><p>${data["data"][i]["caption"]}</p>`)
 							}
 				  		}
 					}
