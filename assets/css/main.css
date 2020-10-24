@@ -4260,17 +4260,6 @@ input, select, textarea {
 						width: 6rem;
 					}
 
-					#footer > section.split.contact > section > :last-child {
-						-moz-flex-shrink: 1;
-						-webkit-flex-shrink: 1;
-						-ms-flex-shrink: 1;
-						flex-shrink: 1;
-						-moz-flex-grow: 1;
-						-webkit-flex-grow: 1;
-						-ms-flex-grow: 1;
-						flex-grow: 1;
-					}
-
 					#footer > section.split.contact > section:first-child {
 						padding: 4rem 4rem 3rem 4rem;
 					}
